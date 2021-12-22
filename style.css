@@ -1,0 +1,128 @@
+html {
+    font-size: 10px;
+  }
+  
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+      'Helvetica Neue', Arial, sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: left;
+    color: #333;
+    margin: 0;
+  }
+
+  #title {
+      text-align: center;
+  }  
+  
+  @media (max-width: 540px) {
+    h1 {
+      font-size: 2rem;
+      line-height: 1.2;
+    }
+  }
+
+  a:visited {
+    color: #531daa;
+  }
+  
+  #main {
+    margin: 30px 10px;
+    padding: 15px;
+    border-radius: 5px;
+    background: #eee;
+  }
+
+  @media (max-width: 540px) {
+    #main {
+    margin: 0;
+    font-size: 1.2rem;
+    }
+}
+  
+  img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  #img-div {
+      align-content: center;
+      max-width: none;
+      padding: 20px;
+      box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+  }
+
+  #img-caption {
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  h2 {
+    margin: 30px 0 0 20px;
+    text-align: left;
+  }
+
+  h3 {
+      margin: 20px 0 0 20px;
+      text-align: left;
+  }
+
+  @media (max-width: 540px) {
+    h3 {
+        margin: 10px 0 0 20px;
+    }
+}
+
+  p {
+    margin-top: 5px;
+    margin-left: 20px;
+    text-align: left;
+  }
+  
+  #head-awards {
+    margin: 50px 0 20px 20px;
+    text-align: left;
+  }
+  
+  @media (max-width: 540px) {
+    #head-awards {
+        margin: 20px 0 10px 20px;
+    }
+}
+
+  ul {
+    margin: 0 auto 20px auto;
+    text-align: left;
+    line-height: 1.5;
+  }
+  
+  li {
+    margin: 10px 0;
+    text-align: left;
+  }
+
+  @media (max-width: 540px) {
+    li {
+        margin: 10px;
+    }
+}
+
+  hr {
+      margin-left: 20px;
+  }
+  
+  blockquote {
+    font-style: italic;
+    max-width: 545px;
+    margin: 50px auto 50px auto;
+    text-align: left;
+  }
+
+footer {
+    text-align: center;
+}
+
+
